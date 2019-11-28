@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/loadurl"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#00d8a0"
+        android:text="Android调用js的方法loadUrl"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/evaluateJavascript"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:background="#00d8a0"
+        android:text="Android调用js的方法evaluateJavascript"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/addJavascriptInterface"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:background="#00d8a0"
+        android:text="js调Android addJavascriptInterface（）进行对象映射"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/webviewclient"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:background="#00d8a0"
+        android:text="js调Android WebViewClient 的方法shouldOverrideUrlLoading ()回调拦截 url"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/onjsalert"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="#00d8a0"
+        android:text="js调Android  WebChromeClient 的onJsAlert()、onJsConfirm()、onJsPrompt（）方法回调拦截JS对话框alert()、confirm()、prompt（） 消息"
+        android:gravity="center"/>
+
+</LinearLayout>
